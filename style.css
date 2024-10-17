@@ -1,0 +1,21 @@
+.ds{
+	font-size: 3em;
+	color: yellow;
+	text-shadow: 0 0 3px red, 0 0 5px blue;
+}
+
+.box{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box:hover{
+	transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+@font-face{
+	font-family: Motion;
+	src:url(MotionPicture.ttf);
+}
